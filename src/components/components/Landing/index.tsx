@@ -44,7 +44,7 @@ export default function Home() {
     <motion.main initial="initial" animate="enter" className={styles.landing}>
       <div className="">
         <Image
-          src="/images/background.jpg"
+          src="/images/background.jpeg"
           fill={true}
           alt="background"
           className="bg-black opacity-60"
