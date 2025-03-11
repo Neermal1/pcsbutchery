@@ -42,14 +42,18 @@ export default function Home() {
 
   return (
     <motion.main initial="initial" animate="enter" className={styles.landing}>
-      <div className="">
-        <Image
-          src="/images/background.jpg"
-          fill={true}
-          alt="background"
-          className="bg-black opacity-60"
-        />
-      </div>
+<div className="w-full h-auto">
+  <Image
+    src="/images/background.jpeg"
+    width={1820}
+    height={1200}
+    objectFit="cover"
+    className="opacity-60"
+    alt="background"
+  />
+</div>
+
+
       {/* <div className={styles.sliderContainer}>
         <div ref={slider} className={styles.slider}>
           <p ref={firstText}>Premium Meat-----</p>
